@@ -27,7 +27,6 @@ def make_word_groups(vocab_words):
     """
     for item in range(1,len(vocab_words)):
         vocab_words[item] = vocab_words[0]+vocab_words[item]
-        print(vocab_words[item])
     
     return ' :: '.join(vocab_words)
     
